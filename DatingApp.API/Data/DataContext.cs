@@ -11,5 +11,6 @@ namespace DatingApp.API.Data
 
         // table name when you scaffold database - code first approach.
         public DbSet<Value> Values { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
